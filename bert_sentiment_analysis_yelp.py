@@ -298,7 +298,7 @@ Y_test = [data["label"] for data in test_dataset]
 vectorizer = TfidfVectorizer()
 
 X_train_transform = vectorizer.fit_transform(X_train)
-  X_test_transform = vectorizer.transform(X_test)
+X_test_transform = vectorizer.transform(X_test)
 
 """### **LOGISTIC REGRESSION**"""
 
